@@ -96,7 +96,8 @@
 		// to revert it back to normal styling once the user scrolls past the banner.
 		// Note: This is disabled on mobile devices.
 			if (!skel.vars.mobile
-			&&	$header.hasClass('alt')
+				// TODO be sure to replace alt class below
+			&&	$header.hasClass('alt alt')
 			&&	$banner.length > 0) {
 
 				$window.on('load', function() {
@@ -105,6 +106,7 @@
 						delay:		0,
 						range:		1,
 						anchor:		'top',
+						// Turned off nav class add
 						on:			function() { $header.addClass('alt reveal'); },
 						off:		function() { $header.removeClass('alt'); }
 					});
