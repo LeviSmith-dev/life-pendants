@@ -29,7 +29,7 @@
 
 	body {
 		line-height: 1;
-		background-image: url(images/background1.jpg);
+		/*background-image: url(images/background1.jpg);*/
 		background-size: cover;
 	}
 
@@ -1612,7 +1612,7 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #645862;
 			text-decoration: none;
 			border: 0;
 		}
@@ -2224,6 +2224,7 @@
 			#header nav ul li {
 				display: inline-block;
 				margin-left: 1.5em;
+				color:#645862;
 			}
 
 				#header nav ul li > ul {
@@ -2403,13 +2404,13 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		/*background-color: #645862;*/
-		background: url("images/background.jpg");
+		background-image: url('img/LP-banner-1680.jpg');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 100%;
 		color: #DCC6AA;
 		cursor: default;
-		padding: 6em 0;
+		padding: 15em 0;
 		text-align: center;
 	}
 
@@ -2487,7 +2488,9 @@
 /* Main */
 
 	#main {
-		background-image: url("images/background1.jpg");
+		/*background-image: url("images/background1.jpg");*/
+
+		background-color: #645862;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2632,6 +2635,7 @@
 
 			#banner {
 				background-attachment: scroll;
+				background-image: url(/img/LP-banner-1280.jpg);
 			}
 
 		/* CTA */
@@ -2709,6 +2713,11 @@
 
 			#banner {
 				background-size: cover;
+				background-image: url(img/LP-banner-980.jpg);
+				background-size:100%;
+				top:0;
+				left:0;
+
 			}
 
 		/* Main */
@@ -2812,7 +2821,9 @@
 		/* Banner */
 
 			#banner {
-				margin: 0;
+				background-image: url("/img/LP-banner-840.jpg");
+				background-size: 100%;
+				margin: 10em 0;
 			}
 
 		/* Wrapper */
@@ -3153,8 +3164,9 @@
 		/* Banner */
 
 			#banner {
-				background-image:url(images/background1.jpg);
+				background-image:url('img/736.jpg');
 				background-size: cover;
+				background-color: #645862;
 				padding: 6em 0;
 			}
 				#banner .sm-logo {
